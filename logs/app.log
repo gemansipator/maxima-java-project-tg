@@ -3005,3 +3005,525 @@ Unconditional classes:
 2024-11-02 17:03:20 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
 2024-11-02 17:03:20 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "[\r][\n]"
 2024-11-02 17:03:20 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "{"offset":882108517,"limit":100,"timeout":50,"allowed_updates":[],"method":"getupdates"}"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Server: nginx/1.18.0[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Date: Sat, 02 Nov 2024 14:04:11 GMT[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Type: application/json[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Length: 411[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "{"ok":true,"result":[{"update_id":882108517,[\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << ""message":{"message_id":5,"from":{"id":842042945,"is_bot":false,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","language_code":"ru"},"chat":{"id":842042945,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","type":"private"},"date":1730556251,"text":"\u0420\u0440\u0440\u0440\u043e"}}]}"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << HTTP/1.1 200 OK
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Server: nginx/1.18.0
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Date: Sat, 02 Nov 2024 14:04:11 GMT
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Type: application/json
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Length: 411
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Connection: keep-alive
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Access-Control-Allow-Origin: *
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 2][route: {s}->https://api.telegram.org:443] can be kept alive indefinitely
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 0
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 2][route: {s}->https://api.telegram.org:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 0
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 75000
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 >> POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 >> charset: UTF-8
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Length: 88
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 >> Content-Type: application/json; charset=UTF-8
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 >> Host: api.telegram.org
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 >> Connection: Keep-Alive
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.impl.conn.CPool - Connection [id:0][route:{s}->https://api.telegram.org:443][state:null] expired @ Sat Nov 02 17:02:30 MSK 2024
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 >> Accept-Encoding: gzip,deflate
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-0: Close connection
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "charset: UTF-8[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Length: 88[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "Host: api.telegram.org[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "Connection: Keep-Alive[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "[\r][\n]"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 >> "{"offset":882108518,"limit":100,"timeout":50,"allowed_updates":[],"method":"getupdates"}"
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {s}->https://api.telegram.org:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {s}->https://api.telegram.org:443
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to api.telegram.org/149.154.167.220:443
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Connecting socket to api.telegram.org/149.154.167.220:443 with timeout 75000
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2024-11-02 17:04:10 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Starting handshake
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Secure session established
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  peer principal: CN=api.telegram.org
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  peer alternative names: [api.telegram.org, www.api.telegram.org]
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 10.0.85.2:55636<->149.154.167.220:443
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 75000
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> charset: UTF-8
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Length: 89
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json; charset=UTF-8
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Host: api.telegram.org
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "charset: UTF-8[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Length: 89[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Host: api.telegram.org[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "{"chat_id":"842042945","text":"[0xd0][0x92][0xd1][0x8b] [0xd0][0xbd][0xd0][0xb0][0xd0][0xbf][0xd0][0xb8][0xd1][0x81][0xd0][0xb0][0xd0][0xbb][0xd0][0xb8]: [0xd0][0xa0][0xd1][0x80][0xd1][0x80][0xd1][0x80][0xd0][0xbe]","method":"sendmessage"}"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Server: nginx/1.18.0[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Date: Sat, 02 Nov 2024 14:04:11 GMT[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Type: application/json[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Length: 397[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "{"ok":true,"result":{"message_id":6,"from":{"id":7550137786,"is_bot":true,"first_name":"MaximaJavaProjectTG","username":"MaximaJavaProject_bot"},"chat":{"id":842042945,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","type":"private"},"date":1730556251,"text":"\u0412\u044b \u043d\u0430\u043f\u0438\u0441\u0430\u043b\u0438: \u0420\u0440\u0440\u0440\u043e"}}"
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << HTTP/1.1 200 OK
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Server: nginx/1.18.0
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Date: Sat, 02 Nov 2024 14:04:11 GMT
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Type: application/json
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Length: 397
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Connection: keep-alive
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Allow-Origin: *
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 3][route: {s}->https://api.telegram.org:443] can be kept alive indefinitely
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 0
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:11 [MaximaJavaProject_bot Telegram Executor] INFO  s.j.m.bot.TelegramBot - Message sent successfully to chat ID: 842042945
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Server: nginx/1.18.0[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Date: Sat, 02 Nov 2024 14:04:35 GMT[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Type: application/json[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Content-Length: 417[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Connection: keep-alive[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << "{"ok":true,"result":[{"update_id":882108518,[\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-2 << ""message":{"message_id":7,"from":{"id":842042945,"is_bot":false,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","language_code":"ru"},"chat":{"id":842042945,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","type":"private"},"date":1730556275,"text":"\u041e\u0443\u043e\u043e\u0443\u0443"}}]}"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << HTTP/1.1 200 OK
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Server: nginx/1.18.0
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Date: Sat, 02 Nov 2024 14:04:35 GMT
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Type: application/json
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Content-Length: 417
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Connection: keep-alive
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Access-Control-Allow-Origin: *
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-2 << Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 2][route: {s}->https://api.telegram.org:443] can be kept alive indefinitely
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-2: set socket timeout to 0
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 2][route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.impl.conn.CPool - Connection [id:2][route:{s}->https://api.telegram.org:443][state:null] expired @ Sat Nov 02 17:04:30 MSK 2024
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-2: Close connection
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 4][route: {s}->https://api.telegram.org:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Opening connection {s}->https://api.telegram.org:443
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connecting to api.telegram.org/149.154.167.220:443
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Connecting socket to api.telegram.org/149.154.167.220:443 with timeout 75000
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Enabled protocols: [TLSv1.3, TLSv1.2]
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Enabled cipher suites:[TLS_AES_256_GCM_SHA384, TLS_AES_128_GCM_SHA256, TLS_CHACHA20_POLY1305_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384, TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_RSA_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_CHACHA20_POLY1305_SHA256, TLS_DHE_DSS_WITH_AES_256_GCM_SHA384, TLS_DHE_RSA_WITH_AES_128_GCM_SHA256, TLS_DHE_DSS_WITH_AES_128_GCM_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_RSA_WITH_AES_256_CBC_SHA256, TLS_DHE_DSS_WITH_AES_256_CBC_SHA256, TLS_DHE_RSA_WITH_AES_128_CBC_SHA256, TLS_DHE_DSS_WITH_AES_128_CBC_SHA256, TLS_ECDHE_ECDSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA, TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA, TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_RSA_WITH_AES_256_CBC_SHA, TLS_DHE_DSS_WITH_AES_256_CBC_SHA, TLS_DHE_RSA_WITH_AES_128_CBC_SHA, TLS_DHE_DSS_WITH_AES_128_CBC_SHA, TLS_RSA_WITH_AES_256_GCM_SHA384, TLS_RSA_WITH_AES_128_GCM_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA256, TLS_RSA_WITH_AES_128_CBC_SHA256, TLS_RSA_WITH_AES_256_CBC_SHA, TLS_RSA_WITH_AES_128_CBC_SHA, TLS_EMPTY_RENEGOTIATION_INFO_SCSV]
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Starting handshake
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "[read] I/O error: Read timed out"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {s}->https://api.telegram.org:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 0
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 75000
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> charset: UTF-8
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Length: 91
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json; charset=UTF-8
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Host: api.telegram.org
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "charset: UTF-8[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Length: 91[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Host: api.telegram.org[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
+2024-11-02 17:04:34 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "{"chat_id":"842042945","text":"[0xd0][0x92][0xd1][0x8b] [0xd0][0xbd][0xd0][0xb0][0xd0][0xbf][0xd0][0xb8][0xd1][0x81][0xd0][0xb0][0xd0][0xbb][0xd0][0xb8]: [0xd0][0x9e][0xd1][0x83][0xd0][0xbe][0xd0][0xbe][0xd1][0x83][0xd1][0x83]","method":"sendmessage"}"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Server: nginx/1.18.0[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Date: Sat, 02 Nov 2024 14:04:35 GMT[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Type: application/json[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Length: 403[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "{"ok":true,"result":{"message_id":8,"from":{"id":7550137786,"is_bot":true,"first_name":"MaximaJavaProjectTG","username":"MaximaJavaProject_bot"},"chat":{"id":842042945,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","type":"private"},"date":1730556275,"text":"\u0412\u044b \u043d\u0430\u043f\u0438\u0441\u0430\u043b\u0438: \u041e\u0443\u043e\u043e\u0443\u0443"}}"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << HTTP/1.1 200 OK
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Server: nginx/1.18.0
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Date: Sat, 02 Nov 2024 14:04:35 GMT
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Type: application/json
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Length: 403
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Connection: keep-alive
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Allow-Origin: *
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 3][route: {s}->https://api.telegram.org:443] can be kept alive indefinitely
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 0
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Executor] INFO  s.j.m.bot.TelegramBot - Message sent successfully to chat ID: 842042945
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory - Secure session established
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  negotiated protocol: TLSv1.3
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  negotiated cipher suite: TLS_AES_256_GCM_SHA384
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  peer principal: CN=api.telegram.org
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  peer alternative names: [api.telegram.org, www.api.telegram.org]
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.s.SSLConnectionSocketFactory -  issuer principal: CN=Go Daddy Secure Certificate Authority - G2, OU=http://certs.godaddy.com/repository/, O="GoDaddy.com, Inc.", L=Scottsdale, ST=Arizona, C=US
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultHttpClientConnectionOperator - Connection established 10.0.85.2:55639<->149.154.167.220:443
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 75000
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> charset: UTF-8
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Length: 88
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Type: application/json; charset=UTF-8
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Host: api.telegram.org
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Connection: Keep-Alive
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "charset: UTF-8[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Length: 88[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Host: api.telegram.org[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "[\r][\n]"
+2024-11-02 17:04:35 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "{"offset":882108519,"limit":100,"timeout":50,"allowed_updates":[],"method":"getupdates"}"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Server: nginx/1.18.0[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Date: Sat, 02 Nov 2024 14:04:46 GMT[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Type: application/json[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Length: 445[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "{"ok":true,"result":[{"update_id":882108519,[\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << ""message":{"message_id":9,"from":{"id":842042945,"is_bot":false,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","language_code":"ru"},"chat":{"id":842042945,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","type":"private"},"date":1730556286,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}]}"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << HTTP/1.1 200 OK
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Server: nginx/1.18.0
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Date: Sat, 02 Nov 2024 14:04:46 GMT
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Type: application/json
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Length: 445
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Connection: keep-alive
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Access-Control-Allow-Origin: *
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 4][route: {s}->https://api.telegram.org:443] can be kept alive indefinitely
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 0
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 4][route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 4][route: {s}->https://api.telegram.org:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 0
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 75000
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> charset: UTF-8
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Length: 88
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Type: application/json; charset=UTF-8
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Host: api.telegram.org
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Connection: Keep-Alive
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "charset: UTF-8[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Length: 88[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Host: api.telegram.org[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "{"offset":882108520,"limit":100,"timeout":50,"allowed_updates":[],"method":"getupdates"}"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "[read] I/O error: Read timed out"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {s}->https://api.telegram.org:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 0
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 75000
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> charset: UTF-8
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Length: 155
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json; charset=UTF-8
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Host: api.telegram.org
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "charset: UTF-8[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Length: 155[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Host: api.telegram.org[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "{"chat_id":"842042945","text":"[0xd0][0x94][0xd0][0xbe][0xd0][0xb1][0xd1][0x80][0xd0][0xbe] [0xd0][0xbf][0xd0][0xbe][0xd0][0xb6][0xd0][0xb0][0xd0][0xbb][0xd0][0xbe][0xd0][0xb2][0xd0][0xb0][0xd1][0x82][0xd1][0x8c]! [0xd0][0x9d][0xd0][0xb0][0xd0][0xbf][0xd0][0xb8][0xd1][0x88][0xd0][0xb8][0xd1][0x82][0xd0][0xb5] [0xd1][0x87][0xd1][0x82][0xd0][0xbe]-[0xd0][0xbd][0xd0][0xb8][0xd0][0xb1][0xd1][0x83][0xd0][0xb4][0xd1][0x8c], [0xd0][0xb8] [0xd1][0x8f] [0xd0][0xbf][0xd0][0xbe][0xd0][0xb2][0xd1][0x82][0xd0][0xbe][0xd1][0x80][0xd1][0x8e] [0xd1][0x8d][0xd1][0x82][0xd0][0xbe].","method":"sendmessage"}"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Server: nginx/1.18.0[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Date: Sat, 02 Nov 2024 14:04:47 GMT[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Type: application/json[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Length: 580[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "{"ok":true,"result":{"message_id":10,"from":{"id":7550137786,"is_bot":true,"first_name":"MaximaJavaProjectTG","username":"MaximaJavaProject_bot"},"chat":{"id":842042945,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","type":"private"},"date":1730556287,"text":"\u0414\u043e\u0431\u0440\u043e \u043f\u043e\u0436\u0430\u043b\u043e\u0432\u0430\u0442\u044c! \u041d\u0430\u043f\u0438\u0448\u0438\u0442\u0435 \u0447\u0442\u043e-\u043d\u0438\u0431\u0443\u0434\u044c, \u0438 \u044f \u043f\u043e\u0432\u0442\u043e\u0440\u044e \u044d\u0442\u043e."}}"
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << HTTP/1.1 200 OK
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Server: nginx/1.18.0
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Date: Sat, 02 Nov 2024 14:04:47 GMT
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Type: application/json
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Length: 580
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Connection: keep-alive
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Allow-Origin: *
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 3][route: {s}->https://api.telegram.org:443] can be kept alive indefinitely
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 0
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:46 [MaximaJavaProject_bot Telegram Executor] INFO  s.j.m.bot.TelegramBot - Message sent successfully to chat ID: 842042945
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Server: nginx/1.18.0[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Date: Sat, 02 Nov 2024 14:04:49 GMT[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Type: application/json[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Length: 385[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "{"ok":true,"result":[{"update_id":882108520,[\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << ""message":{"message_id":11,"from":{"id":842042945,"is_bot":false,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","language_code":"ru"},"chat":{"id":842042945,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","type":"private"},"date":1730556289,"text":"333"}}]}"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << HTTP/1.1 200 OK
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Server: nginx/1.18.0
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Date: Sat, 02 Nov 2024 14:04:49 GMT
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Type: application/json
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Length: 385
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Connection: keep-alive
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Access-Control-Allow-Origin: *
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 4][route: {s}->https://api.telegram.org:443] can be kept alive indefinitely
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 0
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 4][route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 4][route: {s}->https://api.telegram.org:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 0
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 75000
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> charset: UTF-8
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Length: 88
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Type: application/json; charset=UTF-8
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Host: api.telegram.org
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Connection: Keep-Alive
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "charset: UTF-8[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Length: 88[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Host: api.telegram.org[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "{"offset":882108521,"limit":100,"timeout":50,"allowed_updates":[],"method":"getupdates"}"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "[read] I/O error: Read timed out"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 3][route: {s}->https://api.telegram.org:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 0
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 75000
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> charset: UTF-8
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Length: 82
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Content-Type: application/json; charset=UTF-8
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Host: api.telegram.org
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Connection: Keep-Alive
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 >> Accept-Encoding: gzip,deflate
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/sendmessage HTTP/1.1[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "charset: UTF-8[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Length: 82[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Host: api.telegram.org[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Connection: Keep-Alive[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "[\r][\n]"
+2024-11-02 17:04:49 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 >> "{"chat_id":"842042945","text":"[0xd0][0x92][0xd1][0x8b] [0xd0][0xbd][0xd0][0xb0][0xd0][0xbf][0xd0][0xb8][0xd1][0x81][0xd0][0xb0][0xd0][0xbb][0xd0][0xb8]: 333","method":"sendmessage"}"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Server: nginx/1.18.0[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Date: Sat, 02 Nov 2024 14:04:50 GMT[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Type: application/json[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Content-Length: 371[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Connection: keep-alive[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "[\r][\n]"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.wire - http-outgoing-3 << "{"ok":true,"result":{"message_id":12,"from":{"id":7550137786,"is_bot":true,"first_name":"MaximaJavaProjectTG","username":"MaximaJavaProject_bot"},"chat":{"id":842042945,"first_name":"\u041d\u0438\u043a\u043e\u043b\u0430\u0439","username":"nikadminrootovich","type":"private"},"date":1730556290,"text":"\u0412\u044b \u043d\u0430\u043f\u0438\u0441\u0430\u043b\u0438: 333"}}"
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << HTTP/1.1 200 OK
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Server: nginx/1.18.0
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Date: Sat, 02 Nov 2024 14:04:50 GMT
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Type: application/json
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Content-Length: 371
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Connection: keep-alive
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Allow-Origin: *
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG org.apache.http.headers - http-outgoing-3 << Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 3][route: {s}->https://api.telegram.org:443] can be kept alive indefinitely
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-3: set socket timeout to 0
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 3][route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:04:50 [MaximaJavaProject_bot Telegram Executor] INFO  s.j.m.bot.TelegramBot - Message sent successfully to chat ID: 842042945
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "HTTP/1.1 200 OK[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Server: nginx/1.18.0[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Date: Sat, 02 Nov 2024 14:05:40 GMT[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Type: application/json[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Content-Length: 23[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Connection: keep-alive[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Strict-Transport-Security: max-age=31536000; includeSubDomains; preload[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Access-Control-Allow-Origin: *[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Access-Control-Allow-Methods: GET, POST, OPTIONS[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "[\r][\n]"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 << "{"ok":true,"result":[]}"
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << HTTP/1.1 200 OK
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Server: nginx/1.18.0
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Date: Sat, 02 Nov 2024 14:05:40 GMT
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Type: application/json
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Content-Length: 23
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Connection: keep-alive
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Access-Control-Allow-Origin: *
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Access-Control-Allow-Methods: GET, POST, OPTIONS
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 << Access-Control-Expose-Headers: Content-Length,Content-Type,Date,Server,Connection
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Connection can be kept alive indefinitely
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection [id: 4][route: {s}->https://api.telegram.org:443] can be kept alive indefinitely
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 0
+2024-11-02 17:05:39 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection released: [id: 4][route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: default
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection request: [route: {s}->https://api.telegram.org:443][total available: 1; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.PoolingHttpClientConnectionManager - Connection leased: [id: 4][route: {s}->https://api.telegram.org:443][total available: 0; route allocated: 1 of 2; total allocated: 1 of 100]
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 0
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.i.c.DefaultManagedHttpClientConnection - http-outgoing-4: set socket timeout to 75000
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Executing request POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Target auth state: UNCHALLENGED
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG o.a.h.impl.execchain.MainClientExec - Proxy auth state: UNCHALLENGED
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> charset: UTF-8
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Length: 88
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Content-Type: application/json; charset=UTF-8
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Host: api.telegram.org
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Connection: Keep-Alive
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.headers - http-outgoing-4 >> Accept-Encoding: gzip,deflate
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "POST /bot7550137786:AAHU4ngzSI72zpQLTKhuTaTUbo8SGK4e7v4/getupdates HTTP/1.1[\r][\n]"
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "charset: UTF-8[\r][\n]"
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Length: 88[\r][\n]"
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Host: api.telegram.org[\r][\n]"
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Connection: Keep-Alive[\r][\n]"
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "User-Agent: Apache-HttpClient/4.5.14 (Java/21.0.5)[\r][\n]"
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "[\r][\n]"
+2024-11-02 17:05:40 [MaximaJavaProject_bot Telegram Connection] DEBUG org.apache.http.wire - http-outgoing-4 >> "{"offset":882108521,"limit":100,"timeout":50,"allowed_updates":[],"method":"getupdates"}"
+2024-11-02 17:05:50 [SpringApplicationShutdownHook] DEBUG o.s.c.a.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@3b956878, started on Sat Nov 02 17:01:20 MSK 2024
+2024-11-02 17:05:50 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase 2147483647
+2024-11-02 17:05:50 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Stopping beans in phase -2147483647
+2024-11-02 17:05:50 [SpringApplicationShutdownHook] DEBUG o.s.c.s.DefaultLifecycleProcessor - Bean 'springBootLoggingLifecycle' completed its stop procedure
+2024-11-02 17:05:50 [SpringApplicationShutdownHook] DEBUG o.s.s.c.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2024-11-02 17:05:50 [SpringApplicationShutdownHook] DEBUG o.s.j.e.a.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
