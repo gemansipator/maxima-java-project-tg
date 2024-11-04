@@ -20,6 +20,8 @@ public class TelegramBot extends TelegramLongPollingBot {
     @Value("${telegram.bot.token}")
     private String botToken;
 
+    private final CommandHandler commandHandler = new CommandHandler();
+
     @Override
     public String getBotUsername() {
         return botUsername;
@@ -32,28 +34,17 @@ public class TelegramBot extends TelegramLongPollingBot {
 
     @Override
     public void onUpdateReceived(Update update) {
-
         if (update.hasMessage() && update.getMessage().hasText()) {
             String messageText = update.getMessage().getText();
-            SendMessage sendMessage = new SendMessage();
-            sendMessage.setChatId(update.getMessage().getChatId().toString());
+            SendMessage sendMessage = commandHandler.handleCommand(update, messageText);
 
-            // Обработка текста сообщения
-            switch (messageText) {
-                case "/start":
-                    sendMessage.setText("Добро пожаловать! Напишите что-нибудь, и я повторю это.");
-                    break;
-                default:
-                    sendMessage.setText("Вы написали: " + messageText);
-            }
-
-            try {
-                execute(sendMessage);
-                logger.info("Message sent successfully to chat ID: {}", update.getMessage().getChatId());
-            } catch (TelegramApiException e) {
-                logger.error("Error while sending message to chat ID {}: {}", update.getMessage().getChatId(), e.getMessage());
-            } catch (Exception e) {
-                logger.error("Unexpected error occurred: {}", e.getMessage());
+            if (sendMessage != null) {
+                try {
+                    execute(sendMessage);
+                    logger.info("Message sent successfully to chat ID: {}", update.getMessage().getChatId());
+                } catch (TelegramApiException e) {
+                    logger.error("Error while sending message to chat ID {}: {}", update.getMessage().getChatId(), e.getMessage());
+                }
             }
         } else {
             logger.warn("Received an update that is not a message or does not contain text.");
