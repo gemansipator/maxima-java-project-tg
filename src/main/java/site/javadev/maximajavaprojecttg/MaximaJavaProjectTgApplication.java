@@ -14,7 +14,6 @@ import site.javadev.maximajavaprojecttg.bot.TelegramBot;
 @SpringBootApplication
 public class MaximaJavaProjectTgApplication implements CommandLineRunner {
 
-
     private static final Logger logger = LoggerFactory.getLogger(Main.class);
     private final TelegramBot telegramBot;
 
