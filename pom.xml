@@ -5,7 +5,7 @@
     <artifactId>maxima-java-project-tg</artifactId>
     <packaging>jar</packaging>
     <version>1.0-SNAPSHOT</version>
-    <name>telegram-bot-maxima-java-project-tg</name>
+    <name>MaximaJavaProjectTG</name>
     <url>http://maven.apache.org</url>
     <properties>
         <java.version>21</java.version>
