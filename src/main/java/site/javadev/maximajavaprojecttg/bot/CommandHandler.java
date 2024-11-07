@@ -39,8 +39,7 @@ public class CommandHandler {
                 break;
             default:
                 if (isActive) {
-                    sendMessage.setText("Вы написали: " + messageText + "\n\n" +
-                            "Просто снова напишите текст и я его повторю: ");
+                    sendMessage.setText("Вы написали: " + messageText);
                     sendMessage.setReplyMarkup(createKeyboard()); // Добавляем клавиатуру
                 } else {
                     // Если бот отключен, ничего не отправляем пользователю.
